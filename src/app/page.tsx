@@ -64,7 +64,7 @@ export default function LandingPage() {
         {
           text: "Réserver une Table",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=1"
       imageAlt="Wood-fired pizza in Napoli style"
       mediaAnimation="blur-reveal"
       avatars={[
@@ -119,11 +119,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "Margherita Best",          price: "15 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"},
+          id: "p1",          name: "Margherita Best",          price: "15 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=2"},
         {
-          id: "p2",          name: "Spaghetti Fruits de Mer",          price: "26 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"},
+          id: "p2",          name: "Spaghetti Fruits de Mer",          price: "26 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=3"},
         {
-          id: "p3",          name: "Escalope à la Crème",          price: "30 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"},
+          id: "p3",          name: "Escalope à la Crème",          price: "30 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=4"},
       ]}
       title="Nos Spécialités"
       description="Le meilleur de notre carte, entre traditions italiennes et produits frais locaux."
@@ -137,15 +137,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",          name: "Dikra Zgarni",          role: "Local Guide",          testimonial: "La meilleure pizza que j'aie jamais mangée en Tunisie.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg"},
+          id: "t1",          name: "Dikra Zgarni",          role: "Local Guide",          testimonial: "La meilleure pizza que j'aie jamais mangée en Tunisie.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=1"},
         {
           id: "t2",          name: "Angelo Mancini",          role: "Client Fidèle",          testimonial: "La pizza qui se rapproche le plus de l'originale italienne.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-tourist_23-2147615344.jpg"},
         {
           id: "t3",          name: "Haykel Salah",          role: "Local Guide",          testimonial: "Excellente qualité. La meilleure pizza de Mahdia.",          imageSrc: "http://img.b2bpic.net/free-photo/muslim-women-traveling-paris-together_23-2149364093.jpg"},
         {
-          id: "t4",          name: "Yassine EL Abed",          role: "Local Guide",          testimonial: "Depuis 2015, toujours au top. Ambiance familiale.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg"},
+          id: "t4",          name: "Yassine EL Abed",          role: "Local Guide",          testimonial: "Depuis 2015, toujours au top. Ambiance familiale.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg?_wi=1"},
         {
-          id: "t5",          name: "Sophie Martin",          role: "Touriste",          testimonial: "Une vue magnifique et des saveurs incroyables.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg"},
+          id: "t5",          name: "Sophie Martin",          role: "Touriste",          testimonial: "Une vue magnifique et des saveurs incroyables.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=2"},
       ]}
       title="Ce que disent nos clients"
       description="Des avis qui parlent d'eux-mêmes, de la Tunisie à l'Italie."
@@ -162,9 +162,9 @@ export default function LandingPage() {
         {
           id: "sami",          name: "Chef Sami",          role: "Maître Pizzaiolo",          description: "Passionné par la technique traditionnelle.",          imageSrc: "http://img.b2bpic.net/free-photo/confident-chef-wearing-uniform-presenting-fresh-steak-before-cooking-looking-camera-restaurant-kitchen_613910-21362.jpg"},
         {
-          id: "karim",          name: "Karim",          role: "Serveur Star",          description: "Service chaleureux et attentionné.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg"},
+          id: "karim",          name: "Karim",          role: "Serveur Star",          description: "Service chaleureux et attentionné.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg?_wi=2"},
         {
-          id: "staff",          name: "Notre Équipe",          role: "Service & Cuisine",          description: "Une équipe soudée et dédiée.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg"},
+          id: "staff",          name: "Notre Équipe",          role: "Service & Cuisine",          description: "Une équipe soudée et dédiée.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=3"},
       ]}
       title="Le Cœur de la Maison"
       description="Une équipe passionnée qui met tout son amour dans chaque assiette."
