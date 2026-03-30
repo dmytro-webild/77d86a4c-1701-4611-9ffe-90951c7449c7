@@ -31,25 +31,15 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Accueil",
-          id: "#hero",
-        },
+          name: "Accueil",          id: "#hero"},
         {
-          name: "Notre Histoire",
-          id: "#about",
-        },
+          name: "Notre Histoire",          id: "#about"},
         {
-          name: "Menu",
-          id: "#menu",
-        },
+          name: "Menu",          id: "#menu"},
         {
-          name: "Avis",
-          id: "#testimonials",
-        },
+          name: "Avis",          id: "#testimonials"},
         {
-          name: "Réserver",
-          id: "#contact",
-        },
+          name: "Réserver",          id: "#contact"},
       ]}
       brandName="Pizza Napoli"
     />
@@ -58,80 +48,51 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitKpi
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       title="L'Authentique Goût de l'Italie à Rejiche"
       description="Savourez une pizza artisanale cuite au feu de bois avec une vue imprenable sur la Méditerranée. Une expérience culinaire inoubliable au cœur de la Corniche."
       kpis={[
         {
-          value: "154+",
-          label: "Avis Clients",
-        },
+          value: "154+",          label: "Avis Clients"},
         {
-          value: "4.1★",
-          label: "Note Moyenne",
-        },
+          value: "4.1★",          label: "Note Moyenne"},
         {
-          value: "10+",
-          label: "Années de Passion",
-        },
+          value: "10+",          label: "Années de Passion"},
       ]}
       enableKpiAnimation={true}
       buttons={[
         {
-          text: "Réserver une Table",
-          href: "#contact",
-        },
+          text: "Réserver une Table",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"
       imageAlt="Wood-fired pizza in Napoli style"
       mediaAnimation="blur-reveal"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg",
-          alt: "Client 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg",          alt: "Client 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/smiling-tourist_23-2147615344.jpg",
-          alt: "Client 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/smiling-tourist_23-2147615344.jpg",          alt: "Client 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/muslim-women-traveling-paris-together_23-2149364093.jpg",
-          alt: "Client 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/muslim-women-traveling-paris-together_23-2149364093.jpg",          alt: "Client 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg",
-          alt: "Client 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg",          alt: "Client 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/confident-chef-wearing-uniform-presenting-fresh-steak-before-cooking-looking-camera-restaurant-kitchen_613910-21362.jpg",
-          alt: "Client 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/confident-chef-wearing-uniform-presenting-fresh-steak-before-cooking-looking-camera-restaurant-kitchen_613910-21362.jpg",          alt: "Client 5"},
       ]}
       avatarText="+500 clients satisfaits"
       marqueeItems={[
         {
-          type: "text",
-          text: "Produits Frais",
+          type: "text",          text: "Produits Frais"},
+        {
+          type: "text-icon",          text: "Cuit au feu de bois",          icon: Flame,
         },
         {
-          type: "text-icon",
-          text: "Cuit au feu de bois",
-          icon: Flame,
+          type: "text",          text: "Vue sur Mer"},
+        {
+          type: "text-icon",          text: "Recettes Authentiques",          icon: Flame,
         },
         {
-          type: "text",
-          text: "Vue sur Mer",
-        },
-        {
-          type: "text-icon",
-          text: "Recettes Authentiques",
-          icon: Flame,
-        },
-        {
-          type: "text",
-          text: "Ouvert tous les jours",
-        },
+          type: "text",          text: "Ouvert tous les jours"},
       ]}
     />
   </div>
@@ -158,23 +119,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          name: "Margherita Best",
-          price: "15 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=2",
-        },
+          id: "p1",          name: "Margherita Best",          price: "15 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"},
         {
-          id: "p2",
-          name: "Spaghetti Fruits de Mer",
-          price: "26 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=3",
-        },
+          id: "p2",          name: "Spaghetti Fruits de Mer",          price: "26 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"},
         {
-          id: "p3",
-          name: "Escalope à la Crème",
-          price: "30 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=4",
-        },
+          id: "p3",          name: "Escalope à la Crème",          price: "30 TND",          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"},
       ]}
       title="Nos Spécialités"
       description="Le meilleur de notre carte, entre traditions italiennes et produits frais locaux."
@@ -183,44 +132,20 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTwo
+      animationType="slide-up"
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Dikra Zgarni",
-          role: "Local Guide",
-          testimonial: "La meilleure pizza que j'aie jamais mangée en Tunisie.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=1",
-        },
+          id: "t1",          name: "Dikra Zgarni",          role: "Local Guide",          testimonial: "La meilleure pizza que j'aie jamais mangée en Tunisie.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg"},
         {
-          id: "t2",
-          name: "Angelo Mancini",
-          role: "Client Fidèle",
-          testimonial: "La pizza qui se rapproche le plus de l'originale italienne.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-tourist_23-2147615344.jpg",
-        },
+          id: "t2",          name: "Angelo Mancini",          role: "Client Fidèle",          testimonial: "La pizza qui se rapproche le plus de l'originale italienne.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-tourist_23-2147615344.jpg"},
         {
-          id: "t3",
-          name: "Haykel Salah",
-          role: "Local Guide",
-          testimonial: "Excellente qualité. La meilleure pizza de Mahdia.",
-          imageSrc: "http://img.b2bpic.net/free-photo/muslim-women-traveling-paris-together_23-2149364093.jpg",
-        },
+          id: "t3",          name: "Haykel Salah",          role: "Local Guide",          testimonial: "Excellente qualité. La meilleure pizza de Mahdia.",          imageSrc: "http://img.b2bpic.net/free-photo/muslim-women-traveling-paris-together_23-2149364093.jpg"},
         {
-          id: "t4",
-          name: "Yassine EL Abed",
-          role: "Local Guide",
-          testimonial: "Depuis 2015, toujours au top. Ambiance familiale.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg?_wi=1",
-        },
+          id: "t4",          name: "Yassine EL Abed",          role: "Local Guide",          testimonial: "Depuis 2015, toujours au top. Ambiance familiale.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg"},
         {
-          id: "t5",
-          name: "Sophie Martin",
-          role: "Touriste",
-          testimonial: "Une vue magnifique et des saveurs incroyables.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=2",
-        },
+          id: "t5",          name: "Sophie Martin",          role: "Touriste",          testimonial: "Une vue magnifique et des saveurs incroyables.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg"},
       ]}
       title="Ce que disent nos clients"
       description="Des avis qui parlent d'eux-mêmes, de la Tunisie à l'Italie."
@@ -235,26 +160,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       members={[
         {
-          id: "sami",
-          name: "Chef Sami",
-          role: "Maître Pizzaiolo",
-          description: "Passionné par la technique traditionnelle.",
-          imageSrc: "http://img.b2bpic.net/free-photo/confident-chef-wearing-uniform-presenting-fresh-steak-before-cooking-looking-camera-restaurant-kitchen_613910-21362.jpg",
-        },
+          id: "sami",          name: "Chef Sami",          role: "Maître Pizzaiolo",          description: "Passionné par la technique traditionnelle.",          imageSrc: "http://img.b2bpic.net/free-photo/confident-chef-wearing-uniform-presenting-fresh-steak-before-cooking-looking-camera-restaurant-kitchen_613910-21362.jpg"},
         {
-          id: "karim",
-          name: "Karim",
-          role: "Serveur Star",
-          description: "Service chaleureux et attentionné.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg?_wi=2",
-        },
+          id: "karim",          name: "Karim",          role: "Serveur Star",          description: "Service chaleureux et attentionné.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg"},
         {
-          id: "staff",
-          name: "Notre Équipe",
-          role: "Service & Cuisine",
-          description: "Une équipe soudée et dédiée.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=3",
-        },
+          id: "staff",          name: "Notre Équipe",          role: "Service & Cuisine",          description: "Une équipe soudée et dédiée.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg"},
       ]}
       title="Le Cœur de la Maison"
       description="Une équipe passionnée qui met tout son amour dans chaque assiette."
@@ -265,16 +175,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Réservations"
       title="Réservez votre table"
       description="Garantissez votre place avec vue sur mer. Nous vous répondons dans les plus brefs délais."
       buttons={[
         {
-          text: "Appeler Pizza Napoli",
-          href: "tel:+21600000000",
-        },
+          text: "Appeler Pizza Napoli",          href: "tel:+21600000000"},
       ]}
     />
   </div>
@@ -284,42 +191,27 @@ export default function LandingPage() {
       logoText="PIZZA NAPOLI"
       columns={[
         {
-          title: "Menu",
-          items: [
+          title: "Menu",          items: [
             {
-              label: "Nos Pizzas",
-              href: "#menu",
-            },
+              label: "Nos Pizzas",              href: "#menu"},
             {
-              label: "Pâtes & Grillades",
-              href: "#menu",
-            },
+              label: "Pâtes & Grillades",              href: "#menu"},
           ],
         },
         {
-          title: "Info",
-          items: [
+          title: "Info",          items: [
             {
-              label: "Réservations",
-              href: "#contact",
-            },
+              label: "Réservations",              href: "#contact"},
             {
-              label: "Nous Trouver",
-              href: "#about",
-            },
+              label: "Nous Trouver",              href: "#about"},
           ],
         },
         {
-          title: "Légal",
-          items: [
+          title: "Légal",          items: [
             {
-              label: "Mentions Légales",
-              href: "#",
-            },
+              label: "Mentions Légales",              href: "#"},
             {
-              label: "Confidentialité",
-              href: "#",
-            },
+              label: "Confidentialité",              href: "#"},
           ],
         },
       ]}
