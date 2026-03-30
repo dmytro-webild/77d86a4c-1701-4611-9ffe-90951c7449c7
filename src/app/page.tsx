@@ -83,7 +83,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=1"
       imageAlt="Wood-fired pizza in Napoli style"
       mediaAnimation="blur-reveal"
       avatars={[
@@ -161,19 +161,19 @@ export default function LandingPage() {
           id: "p1",
           name: "Margherita Best",
           price: "15 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=2",
         },
         {
           id: "p2",
           name: "Spaghetti Fruits de Mer",
           price: "26 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=3",
         },
         {
           id: "p3",
           name: "Escalope à la Crème",
           price: "30 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/chef-white-uniform-prepare-pizzaa_1157-27035.jpg?_wi=4",
         },
       ]}
       title="Nos Spécialités"
@@ -191,7 +191,7 @@ export default function LandingPage() {
           name: "Dikra Zgarni",
           role: "Local Guide",
           testimonial: "La meilleure pizza que j'aie jamais mangée en Tunisie.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=1",
         },
         {
           id: "t2",
@@ -212,14 +212,14 @@ export default function LandingPage() {
           name: "Yassine EL Abed",
           role: "Local Guide",
           testimonial: "Depuis 2015, toujours au top. Ambiance familiale.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg?_wi=1",
         },
         {
           id: "t5",
           name: "Sophie Martin",
           role: "Touriste",
           testimonial: "Une vue magnifique et des saveurs incroyables.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=2",
         },
       ]}
       title="Ce que disent nos clients"
@@ -246,14 +246,14 @@ export default function LandingPage() {
           name: "Karim",
           role: "Serveur Star",
           description: "Service chaleureux et attentionné.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-living-room_329181-626.jpg?_wi=2",
         },
         {
           id: "staff",
           name: "Notre Équipe",
           role: "Service & Cuisine",
           description: "Une équipe soudée et dédiée.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-sitting-cafe-table-gesturing_1262-1141.jpg?_wi=3",
         },
       ]}
       title="Le Cœur de la Maison"
